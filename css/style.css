@@ -1,0 +1,76 @@
+/*
+=fonts
+====*/
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:400,600");
+/*
+=variables
+========*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #0797BF;
+  transition: all ease-in-out 0.3s;
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+  text-decoration: none !important;
+}
+
+a:hover, a:active, a:focus {
+  color: #EF5209;
+}
+
+body {
+  color: #2B2B2B;
+  background-color: #E8E2D7;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: lowercase;
+}
+
+.site-wrapper .section-title {
+  text-align: right;
+}
+
+.site-wrapper .section-body {
+  border-left: 1px solid #D1345B;
+}
+
+.site-wrapper .section-body ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-wrapper .section-body ul li {
+  margin-bottom: 0.3em;
+}
+
+.site-wrapper .section-body ul li .fa {
+  margin-right: 0.5em;
+  color: #2B2B2B;
+}
+
+.site-header .site-title {
+  text-align: center;
+  margin: 0;
+  padding: 50px 0;
+  background: #2B2B2B;
+  color: #E8E2D7;
+  border-bottom: 5px solid #D1345B;
+}
+
+.resources, .tutorials {
+  margin-top: 30px;
+}
