@@ -41,10 +41,11 @@ body {
 
 .site-wrapper .section-title {
   text-align: right;
+  margin: 0;
 }
 
 .site-wrapper .section-body {
-  border-left: 1px solid #D1345B;
+  padding-bottom: 30px;
 }
 
 .site-wrapper .section-body ul {
@@ -71,6 +72,35 @@ body {
   border-bottom: 5px solid #D1345B;
 }
 
-.resources, .tutorials {
+section {
   margin-top: 30px;
+}
+
+.resources {
+  padding-top: 30px;
+}
+
+.footer {
+  margin-top: 30px;
+}
+
+.footer p {
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 16px;
+  color: #E8E2D7;
+  background: #2B2B2B;
+}
+
+@media (max-width: 767px) {
+  .site-wrapper .section-title {
+    text-align: center;
+    border-bottom: 2px dotted #2B2B2B;
+    margin-bottom: 15px;
+    padding: 15px 0;
+  }
+  section, .resources {
+    margin-top: 0;
+  }
 }
